@@ -1,0 +1,13 @@
+import express from "express";
+
+const app = express();
+const PORT = process.env.PORT || 8080;
+const HOST = process.env.HOST;
+
+app.get("/", (req, res) => {
+  res.send("server is running");
+});
+
+app.listen(PORT, HOST, () => {
+  console.log(`Server is running on port ${HOSt}${PORT}`);
+});

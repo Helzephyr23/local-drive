@@ -1,0 +1,25 @@
+{
+  "name": "local-drive",
+  "version": "1.0.0",
+  "description": "this is a local dive, where you can host this website on your server or computer and use it from another device",
+  "main": "node server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Helzephyr23/local-drive.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Helzephyr23/local-drive/issues"
+  },
+  "homepage": "https://github.com/Helzephyr23/local-drive#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.10"
+  }
+}
